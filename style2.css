@@ -1,0 +1,237 @@
+/*APPLYING CSS FOR THE PROJECT OF FOOD DELIVERY WEBSITE:*/
+
+
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+}
+/*html{
+    scroll-behavior: smooth;
+}*/
+#logo{
+    border: 2px  red;
+}
+ul{
+    border: 2px  red;
+    margin: auto;
+    width: 500px;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+ul li {
+    color: white;
+    display: inline;
+    padding: 20px;
+    
+}
+ul li:hover{
+    color: black;
+    background-color: white;
+    border-radius: 20px;
+     
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 100.0;
+}
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+
+}
+#home::before{
+    content: "";
+    position: absolute;
+    background: url('images/table.jpg')no-repeat center center / cover;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.95;
+}
+#home h1{
+    color: white;
+    font-size: 50px;
+    text-decoration: underline;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+#home p{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.btn{
+    color: white;
+    border: 2px solid white;
+    background-color: black;
+    padding: 10px;
+    width: 180px;
+    font-family: cursive;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+}
+.btn:hover{
+    color: rgb(18, 209, 139);
+    background: scroll;
+}
+.table{
+    margin-right: 2%;
+    padding: 10px;
+    border-radius: 20px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    cursor: pointer;
+}
+.table:hover{
+    background: transparent;
+    color: rgb(106, 223, 182);
+}
+.heading2{
+    text-align: center;
+    font-size: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    color: white;
+    background-color: rgb(68, 3, 3);
+    border-radius: 40px;
+    font-style: italic;
+
+   
+}
+.services-container{
+    margin-top: 9%;
+
+}
+.box{
+    border: 2px solid #000000;
+    text-align: center;
+    height: 290px;
+    width: 33.3%;
+    margin: 0.7%;
+    padding: 10px;
+    border-radius: 25px;
+    background-color: #e5e0f2;
+    
+
+}
+/*#services.box{
+    height: 200px;
+    
+}*/
+#services{
+    display: flex;
+    
+}
+
+.heading4{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 6%;
+    border: 2px solid rgb(0, 0, 0);
+    font-style: italic;
+    border-radius: 40px;
+    color: white;
+    background-color: rgb(68, 3, 3);
+
+}
+
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('images/vegetable.jpg') no-repeat center center / cover;
+    width: 100%;
+    height: 50%;
+    z-index: -1;
+    opacity: 0.5;
+
+}
+
+.client-container{
+    display: flex;
+
+}
+
+
+.client{
+    border: 2px red;
+    width: 25%;
+    margin: 0.5%;
+
+}
+
+#contact-section{
+    margin-top: 12%;
+    margin-bottom: 20%;
+}
+
+.heading5{
+    text-align: center;
+    font-size: 40px;
+    border: 2px solid rgb(0, 0, 0);
+    font-style: italic;
+    border-radius: 40px;
+    color: white;
+    background-color: rgb(68, 3, 3);
+    margin-top: 12%;
+
+}
+
+#contact-section::before{
+    content: "";
+    position: absolute;
+    background: url('images/social.jpg');
+    width: 100%;
+    height: 90%;
+    z-index: -1;
+    opacity: 0.2;
+
+}
+.copy{
+    text-align: center;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+
+
+}
+
+#contact-box{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 40px;
+    margin-left: 36%;
+    margin-top: 4%;
+    display: inline-block;
+    border-radius: 20px;
+    background-color: rgb(191, 191, 191);
+
+}
+
+.form-group{
+    padding: 5px;
+    font-family: cursive;
+    
+}
+
+input{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    width: 250px;
+}
+
